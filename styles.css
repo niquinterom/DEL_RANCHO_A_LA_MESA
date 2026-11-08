@@ -1,0 +1,30 @@
+/* Importar una fuente moderna y limpia */
+@import url('https://googleapis.com');
+
+/* ==========================================================================
+   1. ESTILOS GENERALES (Afectan a index, agricultores y productos)
+   ========================================================================== */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fcfbfa; /* Fondo cálido */
+    color: #3e2723;            /* Texto marrón tierra oscuro */
+    line-height: 1.6;
+}
+
+/* Títulos bonitos */
+h1, h2, h3 {
+    color: #1b5e20; /* Verde oscuro orgánico */
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+/* Enlaces limpios */
+a {
+    text-decoration: none;
+    color: inherit;
+}
