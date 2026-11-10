@@ -1,3 +1,4 @@
+@import url('https://googleapis.com');
 
 * {
     box-sizing: border-box;
@@ -7,18 +8,18 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #fcfbfa; 
-    color: #3e2723;            
+    background-color: #fcfbfa; /* Fondo cálido */
+    color: #3e2723;            /* Texto marrón tierra oscuro */
     line-height: 1.6;
 }
 
-
+/* Títulos bonitos */
 h1, h2, h3 {
-    color: #1b5e20; 
+    color: #1b5e20; /* Verde oscuro orgánico */
     font-weight: 700;
     margin-bottom: 15px;
 }
-
+/* Enlaces limpios */
 a {
     text-decoration: none;
     color: inherit;
@@ -27,10 +28,11 @@ header, main, nav {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    text-align: center; 
+    text-align: center; /* Centra los textos y elementos */
+}
 
 header {
-    background-color: #f1ebd9; 
+    background-color: #f1ebd9; /* Fondo crema suave para resaltar el inicio */
     border-radius: 12px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -38,66 +40,66 @@ header {
 
 header p {
     font-size: 1.1rem;
-    color: #5d4037; 
+    color: #5d4037; /* Marrón un poco más suave para el subtítulo */
     max-width: 600px;
     margin: 0 auto;
 }
 
-
+/* Control y estilo de las imágenes */
 img {
     display: block;
     margin: 20px auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    object-fit: cover; 
-    max-width: 100%;   
-    height: auto;      
+    border-radius: 8px; /* Bordes redondeados modernos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidad */
+    object-fit: cover; /* Evita que la imagen se deforme si cambias tamaños */
+    max-width: 100%;   /* Hace que las imágenes sean responsivas en celular */
+    height: auto;      /* Mantiene la proporción correcta */
 }
 
-
+/* Sección de beneficios y listas */
 main h2, main h3 {
     margin-top: 40px;
 }
 
 ul {
-    list-style-type: none; 
+    list-style-type: none; /* Quitamos los puntitos aburridos por defecto */
     padding: 0;
     max-width: 500px;
     margin: 20px auto;
-    text-align: left; 
+    text-align: left; /* La lista se lee mejor alineada a la izquierda */
 }
 
 ul li {
     background-color: #ffffff;
     margin-bottom: 12px;
     padding: 15px;
-    border-left: 5px solid #1b5e20; 
+    border-left: 5px solid #1b5e20; /* Línea verde al lado de cada beneficio */
     border-radius: 0 8px 8px 0;
     box-shadow: 0 2px 4px rgba(0,0,0,0.02);
 }
 
-
+/* Estilo del menú de navegación (Convertido en botones modernos) */
 nav {
     margin-top: 40px;
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
-    gap: 20px; 
+    gap: 20px; /* Espacio entre los botones */
 }
 
 nav a {
-    background-color: #1b5e20; 
-    color: #ffffff !important;  
+    background-color: #1b5e20; /* Botón verde */
+    color: #ffffff !important;  /* Forzamos el texto blanco */
     padding: 12px 24px;
-    border-radius: 25px;      
+    border-radius: 25px;       /* Botones ovalados modernos */
     font-weight: bold;
     font-size: 0.95rem;
-    transition: all 0.3s ease; 
+    transition: all 0.3s ease; /* Animación suave al pasar el mouse */
     box-shadow: 0 4px 6px rgba(27, 94, 32, 0.2);
 }
 
 nav a:hover {
-    background-color: #388e3c; 
-    transform: translateY(-2px); 
+    background-color: #388e3c; /* Verde más brillante al pasar el cursor */
+    transform: translateY(-2px); /* Pequeño efecto de salto */
     box-shadow: 0 6px 12px rgba(27, 94, 32, 0.3);
 }
